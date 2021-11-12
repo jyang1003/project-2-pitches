@@ -15,6 +15,7 @@ Teamfight Tactics is a game designed by Riot Games in the format of autochess. M
 
 ## MVP GOALS
 - Have a login page as the home page
+- Have a team history page
 - Have a page to view all teams built
 - Have a favorites page
 - Have a team building page
