@@ -15,20 +15,20 @@ Teamfight Tactics is a game designed by Riot Games in the format of autochess. M
 
 ## MVP GOALS
 - Have a login page as the home page
-- Have a team history page
-- Have a page to view all teams built
-- Have a favorites page
-- Have a team building page
+- Have a team history page 
+- Have a page to view all teams built with delete buttons
+- Have a favorites page with delete buttons
+- Have a team building page with drag and drop
 
 ## STRETCH GOALS
 - Implement items to add on to champions
 - Add a match history to save teams from actual games
-- Create better design for the page
+- Implement synergies functionality
 - Add in Hextech Augments
 
 ## POTENTIAL ROADBLOCKS
 - Need to learn how to seed data and mass import into database
-- The doc for the TFT API is very 
+- Figuring out how to implement drag and drop
 
 
 
