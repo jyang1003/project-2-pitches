@@ -1,41 +1,33 @@
-# Project 2 Pitch Guidelines
-Project Description and Pitch Guidelines for SEIR SEA P2
+# TFT Team Builder
 
 ---
 ## Project 2 Goals
+Teamfight Tactics is a game designed by Riot Games in the format of autochess. My app TFT Team Builder will be using the Riot Games TFT JSON data package in order to use that data to theory-craft and build your own TFT teams. This project will be using Javascript, express, node.js, and postgres. I will be have three models for the user, champion, and team data.
 
-In your second project you will create a full stack Express and Postgres app which has:
-- *At least x2 models, and utilize and build at least one relationship between the two models.*
-- *Sequelize as an ORM to interact with and create your database.*
-- *An Express server utilizing EJS/EJS layouts for UI design and styling.*
-- *Interaction with and inclusion of at least one API.*
+## ERD
+![ERD](ERD/ERD_Table.png)
+## WIREFRAMES
+![Login](wireframes/Login_Wireframe.png)
+![History](wireframes/History_Wireframe.png)
+![Favorites](wireframes/Favorites_Wireframe.png)
+![newTeam](wireframes/newTeam_Wireframe.png)
+![champData](wireframes/champData_Wireframe.png)
 
-## Project 2 Pitch Guidelines
+## MVP GOALS
+- Have a login page as the home page
+- Have a page to view all teams built
+- Have a favorites page
+- Have a team building page
 
-In designing and building your project, you will start by forking and cloneing this repository, and then editing this README to include the following information: 
-1. Name of your app
-2. Tech stack you plan to use
-3. Simple wireframes
-     * Can be handdrawn, or with tool of your choice
-     * Example online tool: [Miro.com](https://miro.com/)
-5. API you plan to use
-6. ERD
-7. Example of how to call/invoke your API, and a description of what data comes back. 
-8. MVP goals (x3-5)
-9. Stretch goals (x2-5)
-10. Any potential roadblocks?
+## STRETCH GOALS
+- Implement items to add on to champions
+- Add a match history to save teams from actual games
+- Create better design for the page
+- Add in Hextech Augments
 
-## How to get started
-1. **Fork and clone this repository.**
-2. **Edit the text above to include specifics of your project.**
-3. **Commit, push, and submit a pull request to this repo with your edited pitch README.**
-4. *After you have met with a staff member and your pitch has been approved, suggested next steps:*
-      * Write out your routes and create a RESTful routing chart.
-      * Come up with a breakdown of what you plan to accomplish each day and how you are going to accomplish it.
-      * Create a new git repo for your project. 
-      * Make all test API calls you need to to ensure your API will be usable for this project. 
-      
-
+## POTENTIAL ROADBLOCKS
+- Need to learn how to seed data and mass import into database
+- The doc for the TFT API is very 
 
 
 
