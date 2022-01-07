@@ -17,14 +17,14 @@ Teamfight Tactics is a game designed by Riot Games in the format of autochess. M
 - Have a login page as the home page
 - Have a team history page 
 - Have a page to view all teams built with delete buttons
-- Have a favorites page with delete buttons
-- Have a team building page with drag and drop
+- Have buttons to add champs to team
 
 ## STRETCH GOALS
 - Implement items to add on to champions
 - Add a match history to save teams from actual games
 - Implement synergies functionality
 - Add in Hextech Augments
+- Have a team building page with drag and drop
 
 ## POTENTIAL ROADBLOCKS
 - Need to learn how to seed data and mass import into database
